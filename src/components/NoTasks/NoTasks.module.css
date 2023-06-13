@@ -1,0 +1,34 @@
+.noTasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.noTasks img {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.noTasks h3 {
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.noTasks p {
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  .noTasks h3 {
+    font-size: 0.75rem
+  }
+
+  .noTasks p {
+    font-size: 0.75rem
+  }
+}
